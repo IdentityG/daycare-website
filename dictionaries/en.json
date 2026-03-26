@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Where Little Minds Grow & Sparkle",
+    "subtitle": "A safe, fun, and advanced educational environment for your children.",
+    "cta": "Enroll Now",
+    "secondaryCta": "Take a Tour"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "Programs",
+    "contact": "Contact"
+  },
+  "philosophy": {
+    "badge": "Our Philosophy",
+    "title": "Nurturing Every Good Seed",
+    "description": "At Good Seed Daycare, we believe that every child is a unique seed with boundless potential. Planted in the right environment, with love, care, and advanced education, they will grow into brilliant minds.",
+    "point1": "Safe & Secure Environment",
+    "point2": "Play-Based Learning",
+    "point3": "Organic & Healthy Meals"
+  },
+  "programs": {
+    "badge": "Stages of Growth",
+    "title": "Our Core Programs",
+    "infant": {
+      "title": "Little Sprouts",
+      "age": "6 Weeks - 12 Months",
+      "desc": "A gentle, loving, and sensory-rich environment designed to make your baby feel secure and stimulate early brain development."
+    },
+    "toddler": {
+      "title": "Curious Seedlings",
+      "age": "1 - 3 Years",
+      "desc": "An active, playful space where toddlers develop fine motor skills, language, and social connections through guided exploration."
+    },
+    "preschool": {
+      "title": "Blooming Trees",
+      "age": "3 - 5 Years",
+      "desc": "An advanced, structured curriculum focusing on reading readiness, math concepts, and creative arts to prepare them for Kindergarten."
+    }
+  },
+    "features": {
+    "badge": "Why Choose Us",
+    "title": "The Right Soil for Your Seed",
+    "cards": [
+      { "title": "Certified Educators", "desc": "Our teachers are highly trained in early childhood education and CPR certified." },
+      { "title": "24/7 Security", "desc": "Advanced security systems and secure drop-off/pick-up protocols for peace of mind." },
+      { "title": "Organic Meals", "desc": "Chef-prepared, nutritious, and allergy-friendly meals made with organic ingredients." },
+      { "title": "Creative Play", "desc": "Spacious indoor and outdoor play areas designed to spark imagination and joy." }
+    ]
+  },
+  "timeline": {
+    "badge": "Daily Schedule",
+    "title": "A Day in the Life",
+    "events": [
+      { "time": "08:00 AM", "title": "Welcome & Free Play", "desc": "Children arrive, greet friends, and engage in sensory play." },
+      { "time": "09:30 AM", "title": "Morning Circle", "desc": "Storytime, songs, and interactive group learning activities." },
+      { "time": "11:30 AM", "title": "Nutritious Lunch", "desc": "A healthy, organic meal to refuel their growing bodies." },
+      { "time": "01:00 PM", "title": "Rest & Recharge", "desc": "Quiet time or nap time with soft music and dimmed lights." },
+      { "time": "03:00 PM", "title": "Outdoor Adventures", "desc": "Nature exploration, playground games, and physical activities." }
+    ]
+  }
+}

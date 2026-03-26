@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Iddoo Sammuun Xixiqqoon Itti Guddatanii fi Ifan",
+    "subtitle": "Naannoo barnootaa nageenyummaan isaa mirkanaa'e, bashannansiisaa fi ammayyaawaa ijoollee keessaniif.",
+    "cta": "Amma Galmaa'aa",
+    "secondaryCta": "Daawwannaa Taasisaa"
+  },
+  "nav": {
+    "home": "Fuula Duraa",
+    "about": "Waa'ee Keenya",
+    "programs": "Sagantaalee",
+    "contact": "Nu Quunnamaa"
+  },
+  "philosophy": {
+    "badge": "Filoosoofii Keenya",
+    "title": "Sanyii Gaarii Hundaa Kunuunsuu",
+    "description": "Good Seed Daycare keessatti, daa'imni hundi sanyii addaa dandeettii daangaa hin qabne qabu akka ta'e ni amanna. Naannoo sirrii ta'e keessatti, jaalala, kunuunsaa fi barnoota ammayyaawaan yoo dhaabaman, gara sammuu qaxaleetti guddatu.",
+    "point1": "Naannoo Nageenyummaan Mirkanaa'e",
+    "point2": "Barnoota Tapha Irratti Hundaa'e",
+    "point3": "Nyaata Orgaanikii fi Fayyaalessa"
+  },
+  "programs": {
+    "badge": "Sadarkaalee Guddinaa",
+    "title": "Sagantaalee Keenya Ijoo",
+    "infant": {
+      "title": "Biqiltuu Xixiqqoo",
+      "age": "Torbee 6 - Ji'a 12",
+      "desc": "Naannoo lallaafaa, jaalalaa fi miira badhaadhaa ta'e daa'imni keessan nageenyummaan akka itti dhaga'amu fi guddinni sammuu isaa akka si'aawu gochuuf qophaa'e."
+    },
+    "toddler": {
+      "title": "Biqiltuuwwan Qorattoota",
+      "age": "Waggaa 1 - 3",
+      "desc": "Iddoo sochii fi tapha qabu, kan ijoolleen xixiqqoon dandeettii qaamaa, afaanii fi hariiroo hawaasummaa itti guddifatan."
+    },
+    "preschool": {
+      "title": "Mukeen Daraaran",
+      "age": "Waggaa 3 - 5",
+      "desc": "Sirna barnootaa ammayyaawaa fi qindaa'aa, daa'imman Kindergarten'iif qopheessuuf dubbisuu, herregaa fi aartii kalaqaa irratti xiyyeeffatu."
+    }
+  },
+    "features": {
+    "badge": "Maaliif Nu Filattu",
+    "title": "Biyyoo Sirrii Sanyii Keessaniif",
+    "cards": [
+      { "title": "Barsiisota Mirkanaa'oo", "desc": "Barsiisonni keenya barnoota daa'immanii fi CPR irratti leenjii gahaa qabu." },
+      { "title": "Nageenya 24/7", "desc": "Sirna nageenyaa ammayyaawaa fi seera ijoollee itti fidan/fudhatan kan amansiisaa ta'e." },
+      { "title": "Nyaata Orgaanikii", "desc": "Nyaata ogeessaan qophaa'e, fayyaalessaa fi alarjii irraa bilisa ta'e." },
+      { "title": "Tapha Kalaqaa", "desc": "Iddoo taphaa bal'aa keessaa fi alaa kan yaada fi gammachuu uumuuf qophaa'e." }
+    ]
+  },
+  "timeline": {
+    "badge": "Sagantaa Guyyaa Guyyaa",
+    "title": "Guyyaa Tokko Jireenya Keessatti",
+    "events": [
+      { "time": "08:00 WD", "title": "Simannaa fi Tapha Bilisaa", "desc": "Daa'imman ni dhufu, hiriyoota isaanii nagaa gaafatu, tapha miiraa irrattis ni hirmaatu." },
+      { "time": "09:30 WD", "title": "Geengoo Ganamaa", "desc": "Yeroo seenaa, sirboota fi sochiiwwan barnoota garee wal-qunnamtii qaban." },
+      { "time": "11:30 WD", "title": "Laaqana Fayyaalessa", "desc": "Nyaata fayyaalessaa fi orgaanikii ta'e qaama isaanii guddachaa jiruuf." },
+      { "time": "01:00 WB", "title": "Boqonnaa fi Haareffamuu", "desc": "Yeroo calqabaa ykn yeroo hirribaa muuziqaa lallaafaa fi ifa xiqqoo wajjin." },
+      { "time": "03:00 WB", "title": "Sochiiwwan Alaa", "desc": "Uumama qorachuu, tapha dirree fi sochii qaamaa adda addaa." }
+    ]
+  }
+}

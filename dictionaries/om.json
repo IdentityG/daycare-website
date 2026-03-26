@@ -41,11 +41,14 @@
     "features": {
     "badge": "Maaliif Nu Filattu",
     "title": "Biyyoo Sirrii Sanyii Keessaniif",
+    "subtitle": "Waan ijoolleen keessan guddachuuf barbaadan hunda, sirna barnootaa addunyaa irraa hanga kunuunsitoota garaa laafaniitti",
+    "ctaTour": "Maakala Daawwadhaa",
+    "ctaTeachers": "Barsiisota Quunnamaa",
     "cards": [
-      { "title": "Barsiisota Mirkanaa'oo", "desc": "Barsiisonni keenya barnoota daa'immanii fi CPR irratti leenjii gahaa qabu." },
-      { "title": "Nageenya 24/7", "desc": "Sirna nageenyaa ammayyaawaa fi seera ijoollee itti fidan/fudhatan kan amansiisaa ta'e." },
-      { "title": "Nyaata Orgaanikii", "desc": "Nyaata ogeessaan qophaa'e, fayyaalessaa fi alarjii irraa bilisa ta'e." },
-      { "title": "Tapha Kalaqaa", "desc": "Iddoo taphaa bal'aa keessaa fi alaa kan yaada fi gammachuu uumuuf qophaa'e." }
+      { "title": "Qulqullina Barnootaa", "desc": "Sirna barnootaa fedhii beekuu kakaasuu fi dandeettii bu'uuraa ijaaruuf qophaa'e", "statLabel": "Mirkaneessaa Milkaa'inaa", "subFeatures": ["Barnoota STEM", "Barnoota Afaanii", "Guddina Sammuu"] },
+      { "title": "Nageenya Dura", "desc": "Sirni nageenyaa ammayyaawaa fi hojjettoonni leenji'an yeroo hunda daa'imman keessan eegu", "statLabel": "Nageenya Guutuu", "subFeatures": ["Nageenya 24/7", "CPR Leenji'an", "Seensa Nageenyaa"] },
+      { "title": "Nyaataa fi Fayyaa", "desc": "Nyaata orgaanikii fi sochii qaamaa guyyaa guyyaa guddina fayyaalessa jajjabeessa", "statLabel": "Nyaata Guyyaa", "subFeatures": ["Nyaata Orgaanikii", "Sochii Qaamaa Guyyaa", "Sagantaa Hirribaa"] },
+      { "title": "Ibsa Kalaqaa", "desc": "Sagantaaleen aartii, muuziqaa fi sochii dandeettii kalaqaa daa'imman keessanii mul'isu", "statLabel": "Sagantaalee Kalaqaa", "subFeatures": ["Istuudiyoo Aartii", "Barnoota Muuziqaa", "Dhiichisaa fi Sochii"] }
     ]
   },
   "timeline": {
@@ -58,5 +61,158 @@
       { "time": "01:00 WB", "title": "Boqonnaa fi Haareffamuu", "desc": "Yeroo calqabaa ykn yeroo hirribaa muuziqaa lallaafaa fi ifa xiqqoo wajjin." },
       { "time": "03:00 WB", "title": "Sochiiwwan Alaa", "desc": "Uumama qorachuu, tapha dirree fi sochii qaamaa adda addaa." }
     ]
+  },
+    "testimonials": {
+    "badge": "Maatii Gammadan",
+    "title": "Hawaasni Keenya Maal Jedha",
+    "reviews": [
+      { "name": "Saaraa Jenkiins", "role": "Haadha Ijoollee 2", "text": "Good Seed Daycare eebba guddaadha. Dandeettiin jechoota daa'ima kiyyaa ji'a 3 qofa keessatti baay'ee dabaleera!" },
+      { "name": "Daawit Cheen", "role": "Abbaa Ijoollee 1", "text": "Odeeffannoo fi suuraawwan guyyaa guyyaan naaf ergaman yeroon hojii irra jiru nagaa sammuu naaf kennu. Barsiisonni dhugumatti daa'ima hundaaf ni yaadu." },
+      { "name": "Eemilii Rodriigez", "role": "Haadha Ijoollee 3", "text": "Xiyyeeffannoo isaan nyaata orgaanikii fi tapha alaa irratti qaban nan jaalladha. Kun walmadaalummaa barnootaa, nageenyaa fi bashannanaati." },
+      { "name": "Maarkas Joonsan", "role": "Abbaa Ijoollee 2", "text": "Iddoon kun qulqulluu, nageenyummaan isaa mirkanaa'aa fi ifaadha. Murtoo gaarii barnoota jalqabaa ijoollee keenyaaf goonedha." }
+    ]
+  },
+  "contact": {
+    "badge": "Nu Quunnamaa",
+    "title": "Waliin Haaguddannu",
+    "subtitle": "Isin irraa dhaga'uu ni barbaanna. Daawwannaa saganteessaa ykn waan fedhe nu gaafadhaa!",
+    "info": {
+      "address": "123 Sunshine Blvd, Green Valley",
+      "phone": "+1 (555) 123-4567",
+      "email": "hello@goodseed.com"
+    },
+    "form": {
+      "name": "Maqaa Guutuu",
+      "email": "Teessoo Imeelii",
+      "message": "Akkamitti isin gargaaruu dandeenya?",
+      "submit": "Ergaa Ergaa"
+    }
+  },
+    "about": {
+    "hero": {
+      "badge": "Seenaa Keenya",
+      "title": "Goggootu Gulaalota Boruu",
+      "subtitle": "Imala sanyii xiqqoo yaada irraa gara hawaasa barattoota gammadoo daraaranitti."
+    },
+    "history": {
+      "title": "Akkaataa Itti Jalqabame",
+      "story": "Bara 2010tti garee barsiisotaa fi maatii ho'aa ta'aniin kan hundeeffame, Good Seed Daycare mul'ata salphaa irraa dhalate: bakka barnoonni akka qorumsaatti itti dhaga'amu fi nageenyi akka manaatti itti dhaga'amu uumuu. Waggoota 15 darban keessatti, killaasii tokko irraa gara kaampasii sadarkaa addunyaatti guddanneerra, garuu ergama keenya isa bu'uuraa hin jijjiirre—daa'ima tajaajillu hunda keessatti sanyii qulqullinaa dhaabuu."
+    },
+    "values": {
+      "badge": "Waan Nu Sochoosu",
+      "title": "Naamusoota Nu Hundeessan",
+      "cards": [
+        {
+          "title": "Amanamummaa",
+          "desc": "Maatii keenya waliin wal-qunnamtii hunda keessatti amanamummaa fi iftoomina qabaachuu."
+        },
+        {
+          "title": "Hirmaachisummaa",
+          "desc": "Adda addummaa kabajuu fi daa'imni hundi akka waan bakka sanaaf ta'etti akka itti dhaga'amu gochuu."
+        },
+        {
+          "title": "Qulqullina",
+          "desc": "Barnoota ijoollummaa jalqabaa keessatti sadarkaa ol'aanaaf carraaquu."
+        },
+        {
+          "title": "Jaalala",
+          "desc": "Naannoo kunuunsaa daa'imni hundi dhugumatti akka kunuunfamu itti dhaga'amu."
+        }
+      ]
+    },
+    "team": {
+      "badge": "Ogeeyyii Keenya",
+      "title": "Gulaalota Quunnamaa",
+      "members": [
+        {
+          "name": "Dr. Elena Vance",
+          "role": "Daarektara Barnootaa",
+          "bio": "Saayikoolojii fi guddina daa'immanii keessatti muuxannoo waggaa 15+."
+        },
+        {
+          "name": "Sarah Miller",
+          "role": "Barsiistuu Ol'aantuu Preschool",
+          "bio": "STEM fi tapha kalaqaa irratti fedhii qabdu."
+        },
+        {
+          "name": "James Wilson",
+          "role": "Ogeessa Iinfant",
+          "bio": "Guddina miiraa fi hariiroo jalqabaa irratti ogeessa."
+        },
+        {
+          "name": "Maria Garcia",
+          "role": "Ogeettii Nyaataa",
+          "bio": "Qaama guddachaa jiruuf nyaata fayyaalessaa fi orgaanikii qopheessuu."
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "badge": "Guddina fi Barumsa",
+      "title": "Sagantaalee Qaxaleedhaaf Qophaa'an",
+      "subtitle": "Sagantaalee keenya addaa umurii daa'imman keessaniif ta'an kan guddina isaanii kunuunsan qoradhaa."
+    },
+    "curriculum": {
+      "badge": "Mala Keenya",
+      "title": "Akkaataa Good Seed",
+      "subtitle": "Barumsa tapha irratti hundaa'e guddina sammuu sirna qabu wajjin walitti makuun muxannoo barnootaa guutuu uumna.",
+      "points": [
+        { "title": "Bifa Gaaffiin", "desc": "Ijoolleen 'maaliif' jedhanii akka gaafatan fi fedhii isaanii akka qoratan jajjabeessuu." },
+        { "title": "Hawaasummaa-Miiraa", "desc": "Waliin jireenya, wal-gargaarsa fi hariiroo cimaa ijaaruu irratti xiyyeeffachuu." },
+        { "title": "Tapha Sochii", "desc": "Yaada xaxamaa ta'an mirkaneessuuf sochii fi tapha fayyadamuu." },
+        { "title": "Kalaqa Haaraa", "desc": "Aartii, muuziqaa fi dhiichisaan dandeettii kalaqaa banuu." }
+      ]
+    },
+    "facilities": {
+      "badge": "Iddoo Keenya",
+      "title": "Iddoowwan Kaka'umsa Kennan",
+      "cards": [
+        { "title": "Laabii Teknoojii", "desc": "Koodiingii fi yaada loojikii jalqaba irratti beeksisuu.", "image": "/images/tech-lab.jpg" },
+        { "title": "Asheeta Uumamaa", "desc": "Waa'ee uumamaa fi itti fufiinsaa irratti barumsa harkaan hojjetamu.", "image": "/images/garden.jpg" },
+        { "title": "Istuudiyoo Aartii", "desc": "Iddoo kalaqa bareedaa fi miira addaaf ta'u.", "image": "/images/art.jpg" },
+        { "title": "Zoonii Boqonnaa", "desc": "Iddoo calqabaa dubbisuu, yaaduu fi haareffamuuf ta'u.", "image": "/images/zen.jpg" }
+      ]
+    },
+    "admission": {
+      "badge": "Nuun Waliin Ta'aa",
+      "title": "Akkaataa Galmee",
+      "steps": [
+        { "title": "Daawwannaa Saganteessaa", "desc": "Iddoo keenya daawwadhaa fi barsiisota keenya quunnamaa." },
+        { "title": "Iyyannoo", "desc": "Waa'ee daa'ima keessanii fi fedhii maatii keessanii nuatti himaa." },
+        { "title": "Ramaddii", "desc": "Sagantaa umurii daa'ima keessaniif ta'u filanna." },
+        { "title": "Baga Dhuftan", "desc": "Imala keessan hawaasa Good Seed wajjin jalqabaa." }
+      ]
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "badge": "Wal Quunnamaa",
+      "title": "Madda Marii Jalqabna",
+      "subtitle": "Waa'ee galmee, sagantaa barnootaa ykn daawwannaa gaaffii qabduu? Isiniifi maatii keessan gargaaruuf as jirra."
+    },
+    "faq": {
+      "badge": "Q&A",
+      "title": "Gaaffilee Barame",
+      "questions": [
+        { "q": "Sa'aatiin hojii keessan maali?", "a": "Wiixata hanga Jimmataatti, ganama sa'aatii 1:30 hanga galgala sa'aatii 12:00tti banamaadha." },
+        { "q": "Nyaata orgaanikii ni dhiyeessituu?", "a": "Eeyyee! Nyaanni keenya hundi 100% orgaanikii yoo ta'an guyyaa guyyaatti ogeessa nyaataan qophaa'u." },
+        { "q": "Tarree eeggannaa ni qabduu?", "a": "Galmeen garee umurii irratti hundaa'a. Iddoo jiru mirkaneeffachuuf nu quunnamaa." },
+        { "q": "Reeshiyoon barsiisaa fi daa'imaa maali?", "a": "Reeshiyoo cimaa hordofna: daa'immaniif 1:3, ijoollee xixiqqoof 1:5, fi barattoota qophaa'ummaa mana barnootaatiif 1:8." }
+      ]
+    }
+  },
+  "footer": {
+    "description": "Naannoo barnootaa nageenyummaan isaa mirkanaa'e, bashannansiisaa fi ammayyaawaa keessatti sammuu qaxalee kunuunsuu.",
+    "quickLinks": "Geessituuwwan Saffisaa",
+    "newsletter": {
+      "title": "Odeeffannoo Haaraa",
+      "desc": "Gorsa maatii fi oduu haaraa daycare keenyaaf galmaa'aa.",
+      "placeholder": "Imeelii keessan galchaa",
+      "button": "Galmaa'aa"
+    },
+    "rights": "Mirgi Hunduu Seeraan Eegamaadha.",
+    "privacy": "Imaammata Mateenyaa",
+    "terms": "Haalawwan Tajaajilaa"
   }
 }

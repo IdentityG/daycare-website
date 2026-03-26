@@ -5,10 +5,11 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { Baby, Puzzle, BookOpen, ArrowRight, Sparkles, Clock, Users, Star, Play, ChevronRight } from "lucide-react";
+import { Dictionary } from "@/types/dictionary";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Programs({ dict }: { dict: any }) {
+export default function Programs({ dict }: { dict: Dictionary }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeCard, setActiveCard] = useState<number | null>(null);
   const [hoveredFeature, setHoveredFeature] = useState<number | null>(null);
@@ -179,18 +180,17 @@ export default function Programs({ dict }: { dict: any }) {
   return (
     <section 
       ref={containerRef} 
-      className="relative py-24 md:py-32 lg:py-40 overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-50"
+      className="relative py-24 md:py-32 lg:py-40 overflow-hidden bg-[#FAFAFA]"
     >
-      {/* Background Decorations */}
+      {/* Background Decorations - Glassmorphic Orbs */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Gradient Orbs */}
         <div 
-          className="absolute top-40 -left-40 w-[500px] h-[500px] rounded-full opacity-30 blur-[100px]"
-          style={{ background: "linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)" }}
+          className="absolute top-0 -left-20 w-[600px] h-[600px] rounded-full opacity-40 blur-[120px] mix-blend-multiply"
+          style={{ background: "linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%)" }}
         />
         <div 
-          className="absolute bottom-40 -right-40 w-[600px] h-[600px] rounded-full opacity-25 blur-[120px]"
-          style={{ background: "linear-gradient(135deg, #10B981 0%, #F59E0B 100%)" }}
+          className="absolute bottom-20 -right-20 w-[700px] h-[700px] rounded-full opacity-30 blur-[120px] mix-blend-multiply"
+          style={{ background: "linear-gradient(135deg, #3B82F6 0%, #10B981 100%)" }}
         />
         
         {/* Dot Pattern */}
@@ -204,13 +204,13 @@ export default function Programs({ dict }: { dict: any }) {
 
         {/* Floating Shapes */}
         <div className="float-decoration absolute top-32 left-[10%]">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rotate-12" />
+          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-kid-pink/30 to-kid-purple/30 rotate-12 backdrop-blur-md shadow-lg border border-white/40" />
         </div>
         <div className="float-decoration absolute top-60 right-[15%]">
-          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-400/20 to-orange-400/20" />
+          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-kid-yellow/30 to-orange-400/30 backdrop-blur-sm shadow-xl border border-white/50" />
         </div>
         <div className="float-decoration absolute bottom-60 left-[20%]">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-400/20 to-teal-400/20 -rotate-12" />
+          <div className="w-14 h-14 rounded-[2rem] bg-gradient-to-br from-kid-green/30 to-teal-400/30 -rotate-12 backdrop-blur-md shadow-md border border-white/40" />
         </div>
       </div>
 
@@ -218,9 +218,12 @@ export default function Programs({ dict }: { dict: any }) {
         
         {/* Header Section */}
         <div className="programs-header text-center max-w-4xl mx-auto mb-16 md:mb-24">
-          <div className="header-badge inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-slate-900 to-slate-800 text-white font-bold text-sm uppercase tracking-wider mb-6 shadow-xl shadow-slate-900/20">
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{dict.programs.badge}</span>
+          <div className="relative mb-6 mx-auto flex justify-center">
+            <div className="absolute inset-0 w-32 h-10 bg-gradient-to-r from-kid-pink to-kid-blue rounded-full blur-xl opacity-40 animate-pulse" />
+            <div className="header-badge relative inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/60 backdrop-blur-xl border border-white/80 text-kid-purple font-extrabold text-sm uppercase tracking-wider shadow-[0_8px_20px_rgba(0,0,0,0.04)]">
+              <Sparkles className="w-5 h-5 text-kid-pink" />
+              <span>{dict.programs.badge}</span>
+            </div>
           </div>
           
           <h2 className="header-title text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-6" style={{ perspective: "1000px" }}>
@@ -266,15 +269,15 @@ export default function Programs({ dict }: { dict: any }) {
               style={{ perspective: "1000px" }}
             >
               <div 
-                className={`relative bg-white rounded-3xl overflow-hidden shadow-lg transition-all duration-500 ${
+                className={`relative bg-white/70 backdrop-blur-2xl rounded-[2.5rem] overflow-hidden border-2 border-white/60 shadow-[0_15px_35px_rgba(0,0,0,0.05)] transition-all duration-500 ${
                   activeCard === i 
-                    ? "shadow-2xl scale-[1.02]" 
-                    : "hover:shadow-xl"
+                    ? "scale-[1.03]" 
+                    : ""
                 }`}
                 style={{ 
                   transformStyle: "preserve-3d",
                   boxShadow: activeCard === i 
-                    ? `0 25px 50px -12px ${prog.color}30` 
+                    ? `0 30px 60px -12px ${prog.color}40` 
                     : undefined
                 }}
               >
@@ -386,23 +389,26 @@ export default function Programs({ dict }: { dict: any }) {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="cta-section relative">
+        {/* CTA Section - Vibrant Gradient Glow */}
+        <div className="cta-section relative mt-24">
           <div 
-            className="relative rounded-3xl overflow-hidden p-8 md:p-12 lg:p-16"
+            className="relative rounded-[3rem] overflow-hidden p-8 md:p-12 lg:p-16 shadow-[0_20px_50px_rgba(236,72,153,0.2)] border border-white/20"
             style={{
-              background: "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%)"
+              background: "linear-gradient(135deg, #ec4899 0%, #f97316 100%)"
             }}
           >
+            {/* Inner Sheen */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent mix-blend-overlay"></div>
+            
             {/* Background Decorations */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden">
               <div 
-                className="absolute top-0 right-0 w-80 h-80 rounded-full opacity-20 blur-[80px]"
-                style={{ background: "linear-gradient(135deg, #3B82F6 0%, #10B981 100%)" }}
+                className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] rounded-full opacity-50 blur-[100px] mix-blend-screen"
+                style={{ background: "linear-gradient(135deg, #fff 0%, #fde047 100%)" }}
               />
               <div 
-                className="absolute bottom-0 left-0 w-60 h-60 rounded-full opacity-15 blur-[60px]"
-                style={{ background: "linear-gradient(135deg, #F59E0B 0%, #EC4899 100%)" }}
+                className="absolute bottom-[-20%] left-[-10%] w-[500px] h-[500px] rounded-full opacity-40 blur-[100px] mix-blend-screen"
+                style={{ background: "linear-gradient(135deg, #fff 0%, #fbcfe8 100%)" }}
               />
               
               {/* Grid Pattern */}
@@ -418,14 +424,14 @@ export default function Programs({ dict }: { dict: any }) {
             <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
               {/* Left Content */}
               <div className="text-center lg:text-left max-w-xl">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-amber-400 font-bold text-sm mb-6">
-                  <Star className="w-4 h-4 fill-amber-400" />
+                <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/20 backdrop-blur-md border border-white/40 text-white font-extrabold text-sm mb-6 shadow-lg shadow-black/5">
+                  <Star className="w-4 h-4 fill-white" />
                   <span>Limited Spots Available</span>
                 </div>
                 
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-4 leading-tight">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-4 leading-[1.1] drop-shadow-md">
                   Ready to Give Your Child the{" "}
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
+                  <span className="text-yellow-200">
                     Best Start?
                   </span>
                 </h3>
@@ -437,17 +443,16 @@ export default function Programs({ dict }: { dict: any }) {
 
               {/* Right Actions */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold text-lg shadow-xl shadow-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/40 hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                <a href={`/en/contact`} className="group relative px-8 py-4 rounded-full bg-white text-kid-pink font-black text-lg shadow-xl hover:shadow-2xl hover:shadow-white/30 hover:-translate-y-1 transition-all duration-300 overflow-hidden flex items-center justify-center">
                   <span className="relative z-10 flex items-center gap-2">
                     Schedule Tour
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                   </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                </button>
+                </a>
                 
-                <button className="px-8 py-4 rounded-2xl bg-white/10 border border-white/20 text-white font-bold text-lg backdrop-blur-sm hover:bg-white/20 hover:-translate-y-1 transition-all duration-300">
+                <a href="tel:+123456789" className="px-8 py-4 rounded-full bg-white/20 border-2 border-white/40 text-white font-extrabold text-lg backdrop-blur-md hover:bg-white/30 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center">
                   Call Us
-                </button>
+                </a>
               </div>
             </div>
 

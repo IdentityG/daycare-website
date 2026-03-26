@@ -38,25 +38,253 @@
       "desc": "An advanced, structured curriculum focusing on reading readiness, math concepts, and creative arts to prepare them for Kindergarten."
     }
   },
-    "features": {
+  "features": {
     "badge": "Why Choose Us",
     "title": "The Right Soil for Your Seed",
+    "subtitle": "Everything your child needs to thrive, from world-class curriculum to nurturing caregivers",
+    "ctaTour": "Tour Facility",
+    "ctaTeachers": "Meet Teachers",
     "cards": [
-      { "title": "Certified Educators", "desc": "Our teachers are highly trained in early childhood education and CPR certified." },
-      { "title": "24/7 Security", "desc": "Advanced security systems and secure drop-off/pick-up protocols for peace of mind." },
-      { "title": "Organic Meals", "desc": "Chef-prepared, nutritious, and allergy-friendly meals made with organic ingredients." },
-      { "title": "Creative Play", "desc": "Spacious indoor and outdoor play areas designed to spark imagination and joy." }
+      {
+        "title": "Academic Excellence",
+        "desc": "Proven curriculum designed to ignite curiosity and build foundational skills",
+        "statLabel": "Success Rate",
+        "subFeatures": [
+          "STEM Curriculum",
+          "Language Immersion",
+          "Cognitive Development"
+        ]
+      },
+      {
+        "title": "Safety First",
+        "desc": "Advanced security systems and trained staff ensure your child is always protected",
+        "statLabel": "Safety Compliant",
+        "subFeatures": [
+          "24/7 Security",
+          "CPR Certified",
+          "Secure Entry"
+        ]
+      },
+      {
+        "title": "Nutrition & Wellness",
+        "desc": "Organic meals and daily physical activities promote healthy growth and development",
+        "statLabel": "Meals Daily",
+        "subFeatures": [
+          "Organic Meals",
+          "Daily Exercise",
+          "Sleep Schedules"
+        ]
+      },
+      {
+        "title": "Creative Expression",
+        "desc": "Art, music, and movement programs unleash your child's imagination and creativity",
+        "statLabel": "Creative Programs",
+        "subFeatures": [
+          "Art Studio",
+          "Music Lessons",
+          "Dance & Movement"
+        ]
+      }
     ]
   },
   "timeline": {
     "badge": "Daily Schedule",
     "title": "A Day in the Life",
     "events": [
-      { "time": "08:00 AM", "title": "Welcome & Free Play", "desc": "Children arrive, greet friends, and engage in sensory play." },
-      { "time": "09:30 AM", "title": "Morning Circle", "desc": "Storytime, songs, and interactive group learning activities." },
-      { "time": "11:30 AM", "title": "Nutritious Lunch", "desc": "A healthy, organic meal to refuel their growing bodies." },
-      { "time": "01:00 PM", "title": "Rest & Recharge", "desc": "Quiet time or nap time with soft music and dimmed lights." },
-      { "time": "03:00 PM", "title": "Outdoor Adventures", "desc": "Nature exploration, playground games, and physical activities." }
+      {
+        "time": "08:00 AM",
+        "title": "Welcome & Free Play",
+        "desc": "Children arrive, greet friends, and engage in sensory play."
+      },
+      {
+        "time": "09:30 AM",
+        "title": "Morning Circle",
+        "desc": "Storytime, songs, and interactive group learning activities."
+      },
+      {
+        "time": "11:30 AM",
+        "title": "Nutritious Lunch",
+        "desc": "A healthy, organic meal to refuel their growing bodies."
+      },
+      {
+        "time": "01:00 PM",
+        "title": "Rest & Recharge",
+        "desc": "Quiet time or nap time with soft music and dimmed lights."
+      },
+      {
+        "time": "03:00 PM",
+        "title": "Outdoor Adventures",
+        "desc": "Nature exploration, playground games, and physical activities."
+      }
     ]
+  },
+  "testimonials": {
+    "badge": "Happy Parents",
+    "title": "What Our Community Says",
+    "reviews": [
+      {
+        "name": "Sarah Jenkins",
+        "role": "Mother of 2",
+        "text": "Good Seed Daycare has been a blessing. My toddler's vocabulary exploded in just 3 months, and they actually beg to go to school every morning!"
+      },
+      {
+        "name": "David Chen",
+        "role": "Father of 1",
+        "text": "The daily updates and photos give me so much peace of mind while I'm at work. The teachers truly care about every single child."
+      },
+      {
+        "name": "Emily Rodriguez",
+        "role": "Mother of 3",
+        "text": "I love the focus on organic meals and outdoor play. It's the perfect balance of education, safety, and pure fun."
+      },
+      {
+        "name": "Marcus Johnson",
+        "role": "Father of 2",
+        "text": "The facility is spotless, secure, and vibrant. Best decision we made for our children's early education."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Let's Grow Together",
+    "subtitle": "We'd love to hear from you. Schedule a tour or ask us anything!",
+    "info": {
+      "address": "123 Sunshine Blvd, Green Valley",
+      "phone": "+1 (555) 123-4567",
+      "email": "hello@goodseed.com"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "How can we help you?",
+      "submit": "Send Message"
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "Our Story",
+      "title": "Cultivating Tomorrow's Leaders",
+      "subtitle": "A journey from a small seedling of an idea to a blooming community of happy learners."
+    },
+    "history": {
+      "title": "How it All Started",
+      "story": "Founded in 2010 by a group of passionate educators and parents, Good Seed Daycare was born out of a simple vision: to create a space where education feels like an adventure and safety feels like home. Over the last 15 years, we have grown from a single classroom to a world-class facility, but our core mission has never changed—planting the seeds of excellence in every child we serve."
+    },
+    "values": {
+      "badge": "What Drives Us",
+      "title": "Values That Root Us",
+      "cards": [
+        {
+          "title": "Integrity",
+          "desc": "Honesty and transparency in every interaction with our families."
+        },
+        {
+          "title": "Inclusion",
+          "desc": "Celebrating diversity and ensuring every child feels they belong."
+        },
+        {
+          "title": "Excellence",
+          "desc": "Striving for the highest standards in early childhood education."
+        },
+        {
+          "title": "Love",
+          "desc": "A nurturing environment where every child feels genuinely cared for."
+        }
+      ]
+    },
+    "team": {
+      "badge": "Our Experts",
+      "title": "Meet the Gardeners",
+      "members": [
+        {
+          "name": "Dr. Elena Vance",
+          "role": "Educational Director",
+          "bio": "15+ years in child psychology and development."
+        },
+        {
+          "name": "Sarah Miller",
+          "role": "Lead Preschool Teacher",
+          "bio": "Passionate about STEM and creative play."
+        },
+        {
+          "name": "James Wilson",
+          "role": "Infant Specialist",
+          "bio": "Expert in sensory development and early bonding."
+        },
+        {
+          "name": "Maria Garcia",
+          "role": "Nutritionist",
+          "bio": "Crafting healthy, organic meals for growing bodies."
+        }
+      ]
+    }
+  },
+  "programsPage": {
+    "hero": {
+      "badge": "Growth & Learning",
+      "title": "Programs Built for Brilliance",
+      "subtitle": "Discover our specialized age-appropriate tracks designed to nurture every stage of your child's development."
+    },
+    "curriculum": {
+      "badge": "Our Method",
+      "title": "The Good Seed Approach",
+      "subtitle": "We combine play-based learning with structured cognitive development to create a holistic educational experience.",
+      "points": [
+        { "title": "Inquiry-Based", "desc": "Encouraging children to ask 'why' and explore their natural curiosity." },
+        { "title": "Social-Emotional", "desc": "Focusing on empathy, cooperation, and building strong relationships." },
+        { "title": "Dynamic Play", "desc": "Using movement and play to reinforce complex concepts." },
+        { "title": "Creative Spark", "desc": "Unlocking imagination through arts, music, and performance." }
+      ]
+    },
+    "facilities": {
+      "badge": "The Garden",
+      "title": "Spaces That Inspire",
+      "cards": [
+        { "title": "The Tech Lab", "desc": "Early introduction to coding and logical thinking.", "image": "/images/tech-lab.jpg" },
+        { "title": "Eco-Garden", "desc": "Hands-on learning about nature and sustainability.", "image": "/images/garden.jpg" },
+        { "title": "Art Studio", "desc": "A vibrant space for messy, beautiful creativity.", "image": "/images/art.jpg" },
+        { "title": "Zen Zone", "desc": "Quiet areas for reading, reflection, and recharge.", "image": "/images/zen.jpg" }
+      ]
+    },
+    "admission": {
+      "badge": "Join Us",
+      "title": "How to Enroll",
+      "steps": [
+        { "title": "Schedule a Tour", "desc": "Visit our facility and meet our dedicated educators." },
+        { "title": "Application", "desc": "Tell us about your child and your family's needs." },
+        { "title": "Placement", "desc": "We find the perfect track for your child's age group." },
+        { "title": "Welcome", "desc": "Start your journey with the Good Seed community." }
+      ]
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "badge": "Connect",
+      "title": "Let's Start a Conversation",
+      "subtitle": "Have questions about enrollment, curriculum, or tours? We're here to help you and your family."
+    },
+    "faq": {
+      "badge": "Q&A",
+      "title": "Common Questions",
+      "questions": [
+        { "q": "What are your operating hours?", "a": "We are open Monday through Friday, from 7:30 AM to 6:00 PM." },
+        { "q": "Do you provide organic meals?", "a": "Yes! All our meals are 100% organic and prepared fresh daily by our nutritionist." },
+        { "q": "Is there a waiting list?", "a": "Enrollment depends on the age group. Contact us to check currently available spots." },
+        { "q": "What is teacher-to-child ratio?", "a": "We maintain strict ratios: 1:3 for infants, 1:5 for toddlers, and 1:8 for preschoolers." }
+      ]
+    }
+  },
+  "footer": {
+    "description": "Nurturing brilliant minds in a safe, fun, and advanced educational environment.",
+    "quickLinks": "Quick Links",
+    "newsletter": {
+      "title": "Stay Updated",
+      "desc": "Subscribe to our newsletter for parenting tips and daycare updates.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "rights": "All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
   }
 }

@@ -5,10 +5,11 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { Leaf, ShieldCheck, Heart, Sparkles, Star, Sun, Cloud } from "lucide-react";
+import { Dictionary } from "@/types/dictionary";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Philosophy({ dict }: { dict: any }) {
+export default function Philosophy({ dict }: { dict: Dictionary }) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useGSAP(() => {
@@ -230,21 +231,21 @@ export default function Philosophy({ dict }: { dict: any }) {
   return (
     <section
       ref={containerRef}
-      className="relative py-24 md:py-32 lg:py-40 overflow-hidden rounded-t-[2.5rem] -mt-10 z-20"
+      className="relative py-24 md:py-32 lg:py-40 overflow-hidden rounded-t-[2.5rem] -mt-10 z-20 shadow-[0_-20px_50px_rgba(0,0,0,0.05)] border-t border-white/10"
       style={{
-        background: "linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%)"
+        background: "linear-gradient(135deg, #1e1b4b 0%, #3b0764 50%, #0f172a 100%)"
       }}
     >
       {/* Background Decorations */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Gradient Orbs */}
+        {/* Gradient Orbs - Increased Vibrancy */}
         <div 
-          className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full opacity-30 blur-[120px]"
-          style={{ background: "linear-gradient(135deg, #10B981 0%, #3B82F6 100%)" }}
+          className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-40 blur-[120px]"
+          style={{ background: "linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%)" }}
         />
         <div 
-          className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full opacity-25 blur-[100px]"
-          style={{ background: "linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%)" }}
+          className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full opacity-30 blur-[120px]"
+          style={{ background: "linear-gradient(135deg, #10B981 0%, #3B82F6 100%)" }}
         />
         
         {/* Grid Pattern */}
@@ -304,11 +305,11 @@ export default function Philosophy({ dict }: { dict: any }) {
             </div>
 
             {/* Feature Cards */}
-            <div className="features-grid grid sm:grid-cols-2 gap-4 md:gap-5 mb-12">
+            <div className="features-grid grid sm:grid-cols-2 gap-5 mb-12">
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className={`feature-card group relative p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm transition-all duration-300 hover:bg-white/10 hover:border-white/20 hover:shadow-xl ${feature.glowClass} cursor-pointer`}
+                  className={`feature-card group relative p-6 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-xl transition-all duration-500 hover:bg-white/[0.08] hover:border-white/30 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.2)] ${feature.glowClass} cursor-default`}
                 >
                   {/* Icon */}
                   <div className={`w-12 h-12 rounded-xl ${feature.bgClass} ${feature.colorClass} flex items-center justify-center mb-4 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3`}>
@@ -366,8 +367,11 @@ export default function Philosophy({ dict }: { dict: any }) {
                 </div>
               </div>
 
+              {/* Main Glowing Backdrop */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-kid-pink to-kid-purple rounded-[2.5rem] blur-2xl opacity-40 animate-pulse translate-x-4 translate-y-4"></div>
+              
               {/* Main Image */}
-              <div className="phil-image-wrapper relative rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
+              <div className="phil-image-wrapper relative rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.4)] border-[6px] border-white/10 backdrop-blur-sm z-10 bg-slate-900">
                 <div className="aspect-[4/5]">
                   <img
                     src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1000&auto=format&fit=crop"
@@ -377,8 +381,8 @@ export default function Philosophy({ dict }: { dict: any }) {
                 </div>
                 
                 {/* Overlay Gradients */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-r from-slate-900/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/60 mix-blend-overlay" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1e1b4b] via-[#1e1b4b]/20 to-transparent opacity-90" />
                 
                 {/* Bottom Content */}
                 <div className="image-content absolute bottom-0 left-0 right-0 p-6">
@@ -410,8 +414,8 @@ export default function Philosophy({ dict }: { dict: any }) {
                   />
                   
                   {/* Inner Circle */}
-                  <div className="absolute inset-2 rounded-full bg-slate-900 flex items-center justify-center">
-                    <Leaf className="w-8 h-8 md:w-10 md:h-10 text-emerald-400 relative z-10" />
+                  <div className="absolute inset-2 rounded-full bg-[#1e1b4b] flex items-center justify-center">
+                    <Leaf className="w-8 h-8 md:w-10 md:h-10 text-emerald-400 relative z-10 drop-shadow-lg" />
                   </div>
                   
                   {/* Rotating Text */}

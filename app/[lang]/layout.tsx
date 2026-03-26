@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
-import "../globals.css"; 
-import Navbar from "@/components/Navbar";
+import "../globals.css";
+import Navbar from "@/components/home/Navbar";
 import { getDictionary } from "@/get-dictionary";
+import Footer from "@/components/home/Footer";
 
-const fredoka = Fredoka({ 
+const fredoka = Fredoka({
   subsets: ["latin"],
   variable: "--font-fredoka",
 });
@@ -30,6 +31,7 @@ export default async function RootLayout({
       <body className={`${fredoka.variable} font-sans antialiased bg-white`}>
         <Navbar dict={dict} lang={lang} />
         {children}
+        <Footer dict={dict} lang={lang} />
       </body>
     </html>
   );
